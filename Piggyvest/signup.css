@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", serif;
+  background-color: #062863;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 10px 10px 10px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #062863;
+  font-size: 28px;
+}
+
+p {
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input {
+  padding: 17px;
+  background-color: #ebebeb;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5px 5px 5px 0;
+}
+
+button {
+  background-color: #062863;
+  padding: 17px;
+  border-radius: 5px 5px 5px 0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.links {
+  text-align: center;
+}
+
+.select {
+  padding: 17px;
+  background-color: #ebebeb;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5px 5px 5px 0;
+  border: none;
+}
